@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+header {
+    background-color: black;
+    padding: 50px 0;
+
+}
+
+.bosh {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 19.2px;
+    color: white;
+    transition: 0.7s;
+
+}
+
+nav ul li a:hover {
+    color: #F57520;
+
+}
+
+nav ul li {
+    list-style: none;
+
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    color: white;
+}
+
+.hero {
+    background-image: url(img/1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 875px;
+}
+
+.hero .container {
+    color: white;
+    padding: 80px 0;
+
+}
+
+.hero .container h1 {
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 118.08px;
+    letter-spacing: 2%;
+
+}
+
+.hero .container p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 1%;
+    padding: 68px 0;
+}
+
+.btn {
+    width: 180px;
+    height: 52px;
+    border-radius: 10px;
+    background: #F57520;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.68px;
+    letter-spacing: 0%;
+
+
+
+}
+
+.card {
+    width: 400px;
+    background-color: black;
+    border-radius: 10px;
+    transition: 1s;
+     color: white;
+}
+
+
+.trassa {
+    background: #777777;
+    padding: 50px 0;
+}
+
+.trassa h1 {
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 78.72px;
+    letter-spacing: 5%;
+    text-align: center;
+    padding: 60px 0;
+
+}
+
+.cards-box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+
+.card span {
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 25.6px;
+    letter-spacing: 0%;
+  
+
+}
+
+.card p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28.8px;
+    letter-spacing: 1%;
+    padding-bottom: 30px;
+   
+}
+
+.card:hover {
+    color: #101010;
+    background: #F57520;
+
+}
+.card-text{
+    padding-left: 30px;
+}
+
+.hero3 .container h1{
+font-weight: 800;
+font-size: 40px;
+line-height: 49.2px;
+letter-spacing: 5%;
+color: white;
+margin-left: 180px;
+padding: 50px 0;
+}
+
+.hero3{
+    height: 636px;
+    background: #F57520;
+     background-image: url(img/image\ 86.png);
+     background-repeat: no-repeat;
+      background-position: right;
+}
+
+.hero3 .container .in-box input{
+border-radius: 10px;   
+width: 302px;
+height: 46px;
+outline: none;
+border: none;
+padding-left: 5px; 
+
+}
+
+
+
+.hero3 .container .in-box textarea{
+    width: 608px;
+    height: 154px;
+    border-radius: 10px ;
+    outline: none;
+    border: none;
+    padding-left: 5px;
+    padding-top: 5px;
+
+}
+
+
+.hero3 .container .in-box textarea{
+    margin: 10px 0; 
+}
+.hero3 .container .in-box .o{
+    margin: 10px 0;
+}
+.i1{
+    margin-right: 5px;
+}
+
+.btn2{
+    width: 608px;
+    height: 52px;
+    border-radius: 10px;
+    color: #F57520;
+font-weight: 600;
+font-size: 14px;
+line-height: 19.68px;
+letter-spacing: 0%;
+text-align: center;
+border: none;
+
+}
+
+footer{
+    background-color: black;
+    height: 200px;
+    padding-top: 82px;
+
+}
+ 
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+footer .container ul{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    
+}
+footer .container ul li a{
+font-weight: 700;
+font-size: 24px;
+line-height: 38.4px;
+letter-spacing: 1%;
+
+}
+
+footer .container .kichik{
+font-weight: 400;
+font-size: 16px;
+line-height: 25.6px;
+letter-spacing: 0%;
+
+}
+
+
+
+
+
+
+
+
